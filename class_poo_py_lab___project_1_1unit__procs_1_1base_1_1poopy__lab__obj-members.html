@@ -6,13 +6,26 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.16"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>The PooPyLab Project: Member List</title>
+<title>The Brown Book: Member List</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+  $(document).ready(initResizable);
+/* @license-end */</script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+  $(document).ready(function() { init_search(); });
+/* @license-end */
+</script>
 <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -22,10 +35,25 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">The PooPyLab Project
+   <div id="projectname">The Brown Book
    </div>
-   <div id="projectbrief">Open source simulation software for biological wastewater treatment</div>
+   <div id="projectbrief">The documentation for the PooPyLab project</div>
   </td>
+   <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Search" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+</td>
  </tr>
  </tbody>
 </table>
@@ -37,16 +65,23 @@
 var searchBox = new SearchBox("searchBox", "search",false,'Search');
 /* @license-end */
 </script>
-<script type="text/javascript" src="menudata.js"></script>
-<script type="text/javascript" src="menu.js"></script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
-$(function() {
-  initMenu('',true,false,'search.php','Search');
-  $(document).ready(function() { init_search(); });
-});
-/* @license-end */</script>
-<div id="main-nav"></div>
+$(document).ready(function(){initNavTree('class_poo_py_lab___project_1_1unit__procs_1_1base_1_1poopy__lab__obj.html','');});
+/* @license-end */
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -61,11 +96,6 @@ $(function() {
 </iframe>
 </div>
 
-<div id="nav-path" class="navpath">
-  <ul>
-<li class="navelem"><a class="el" href="namespace_poo_py_lab___project.html">PooPyLab_Project</a></li><li class="navelem"><a class="el" href="namespace_poo_py_lab___project_1_1unit__procs.html">unit_procs</a></li><li class="navelem"><a class="el" href="namespace_poo_py_lab___project_1_1unit__procs_1_1base.html">base</a></li><li class="navelem"><a class="el" href="class_poo_py_lab___project_1_1unit__procs_1_1base_1_1poopy__lab__obj.html">poopy_lab_obj</a></li>  </ul>
-</div>
-</div><!-- top -->
 <div class="header">
   <div class="headertitle">
 <div class="title">PooPyLab_Project.unit_procs.base.poopy_lab_obj Member List</div>  </div>
@@ -74,7 +104,7 @@ $(function() {
 
 <p>This is the complete list of members for <a class="el" href="class_poo_py_lab___project_1_1unit__procs_1_1base_1_1poopy__lab__obj.html">PooPyLab_Project.unit_procs.base.poopy_lab_obj</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="class_poo_py_lab___project_1_1unit__procs_1_1base_1_1poopy__lab__obj.html#a3292bb6489aae34e081b631b0b08547a">__metaclass__</a></td><td class="entry"><a class="el" href="class_poo_py_lab___project_1_1unit__procs_1_1base_1_1poopy__lab__obj.html">PooPyLab_Project.unit_procs.base.poopy_lab_obj</a></td><td class="entry"><span class="mlabel">private</span><span class="mlabel">static</span></td></tr>
+  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>__metaclass__</b> (defined in <a class="el" href="class_poo_py_lab___project_1_1unit__procs_1_1base_1_1poopy__lab__obj.html">PooPyLab_Project.unit_procs.base.poopy_lab_obj</a>)</td><td class="entry"><a class="el" href="class_poo_py_lab___project_1_1unit__procs_1_1base_1_1poopy__lab__obj.html">PooPyLab_Project.unit_procs.base.poopy_lab_obj</a></td><td class="entry"><span class="mlabel">private</span><span class="mlabel">static</span></td></tr>
   <tr><td class="entry"><a class="el" href="class_poo_py_lab___project_1_1unit__procs_1_1base_1_1poopy__lab__obj.html#a7251e80bea543394b08fad09a7f69ef2">_branch_flow_helper</a>(self)</td><td class="entry"><a class="el" href="class_poo_py_lab___project_1_1unit__procs_1_1base_1_1poopy__lab__obj.html">PooPyLab_Project.unit_procs.base.poopy_lab_obj</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="class_poo_py_lab___project_1_1unit__procs_1_1base_1_1poopy__lab__obj.html#ac46e03e2a2f05ac7ad6db782bcf6efc4">_check_conc_cnvg</a>(self, curr_comps, prev_comps, rel_lim)</td><td class="entry"><a class="el" href="class_poo_py_lab___project_1_1unit__procs_1_1base_1_1poopy__lab__obj.html">PooPyLab_Project.unit_procs.base.poopy_lab_obj</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
   <tr><td class="entry"><a class="el" href="class_poo_py_lab___project_1_1unit__procs_1_1base_1_1poopy__lab__obj.html#ad906683b03fafcc6d31e71ace93a25b4">_discharge_main_outlet</a>(self)</td><td class="entry"><a class="el" href="class_poo_py_lab___project_1_1unit__procs_1_1base_1_1poopy__lab__obj.html">PooPyLab_Project.unit_procs.base.poopy_lab_obj</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
@@ -97,10 +127,10 @@ $(function() {
   <tr class="even"><td class="entry"><a class="el" href="class_poo_py_lab___project_1_1unit__procs_1_1base_1_1poopy__lab__obj.html#a414a4b93c67ec552f492a0f6d50993ee">get_side_outflow</a>(self)</td><td class="entry"><a class="el" href="class_poo_py_lab___project_1_1unit__procs_1_1base_1_1poopy__lab__obj.html">PooPyLab_Project.unit_procs.base.poopy_lab_obj</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="class_poo_py_lab___project_1_1unit__procs_1_1base_1_1poopy__lab__obj.html#ac2c29e2e7482f7804c4a397cb0c9941d">get_side_outlet_concs</a>(self)</td><td class="entry"><a class="el" href="class_poo_py_lab___project_1_1unit__procs_1_1base_1_1poopy__lab__obj.html">PooPyLab_Project.unit_procs.base.poopy_lab_obj</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="class_poo_py_lab___project_1_1unit__procs_1_1base_1_1poopy__lab__obj.html#a5bc3c747b5a4973ed01bf66a6ff7fc89">get_sN</a>(self, branch='Main')</td><td class="entry"><a class="el" href="class_poo_py_lab___project_1_1unit__procs_1_1base_1_1poopy__lab__obj.html">PooPyLab_Project.unit_procs.base.poopy_lab_obj</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="class_poo_py_lab___project_1_1unit__procs_1_1base_1_1poopy__lab__obj.html#a30e031f9326990b72a52860c4fc892c3">get_TN</a>(self, branch='Main')</td><td class="entry"><a class="el" href="class_poo_py_lab___project_1_1unit__procs_1_1base_1_1poopy__lab__obj.html">PooPyLab_Project.unit_procs.base.poopy_lab_obj</a></td><td class="entry"></td></tr>
+  <tr bgcolor="#f0f0f0"><td class="entry"><b>get_TN</b>(self, branch='Main') (defined in <a class="el" href="class_poo_py_lab___project_1_1unit__procs_1_1base_1_1poopy__lab__obj.html">PooPyLab_Project.unit_procs.base.poopy_lab_obj</a>)</td><td class="entry"><a class="el" href="class_poo_py_lab___project_1_1unit__procs_1_1base_1_1poopy__lab__obj.html">PooPyLab_Project.unit_procs.base.poopy_lab_obj</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="class_poo_py_lab___project_1_1unit__procs_1_1base_1_1poopy__lab__obj.html#a953ee47bd57e93b6bb10808d2b2d70b4">get_TSS</a>(self, branch='Main')</td><td class="entry"><a class="el" href="class_poo_py_lab___project_1_1unit__procs_1_1base_1_1poopy__lab__obj.html">PooPyLab_Project.unit_procs.base.poopy_lab_obj</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="class_poo_py_lab___project_1_1unit__procs_1_1base_1_1poopy__lab__obj.html#ada8f66869c25e493a4ba70172f245209">get_type</a>(self)</td><td class="entry"><a class="el" href="class_poo_py_lab___project_1_1unit__procs_1_1base_1_1poopy__lab__obj.html">PooPyLab_Project.unit_procs.base.poopy_lab_obj</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="class_poo_py_lab___project_1_1unit__procs_1_1base_1_1poopy__lab__obj.html#a77538e4c4c857af6cacfa32ae347e2d3">get_upstream</a>(self)</td><td class="entry"><a class="el" href="class_poo_py_lab___project_1_1unit__procs_1_1base_1_1poopy__lab__obj.html">PooPyLab_Project.unit_procs.base.poopy_lab_obj</a></td><td class="entry"></td></tr>
+  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>get_upstream</b>(self) (defined in <a class="el" href="class_poo_py_lab___project_1_1unit__procs_1_1base_1_1poopy__lab__obj.html">PooPyLab_Project.unit_procs.base.poopy_lab_obj</a>)</td><td class="entry"><a class="el" href="class_poo_py_lab___project_1_1unit__procs_1_1base_1_1poopy__lab__obj.html">PooPyLab_Project.unit_procs.base.poopy_lab_obj</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="class_poo_py_lab___project_1_1unit__procs_1_1base_1_1poopy__lab__obj.html#a3ce8189252aeaa4b9b8bc4262bc94f25">get_VSS</a>(self, branch='Main')</td><td class="entry"><a class="el" href="class_poo_py_lab___project_1_1unit__procs_1_1base_1_1poopy__lab__obj.html">PooPyLab_Project.unit_procs.base.poopy_lab_obj</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="class_poo_py_lab___project_1_1unit__procs_1_1base_1_1poopy__lab__obj.html#ac6fd6b349e9c94925ff7299f4d51859d">has_discharger</a>(self)</td><td class="entry"><a class="el" href="class_poo_py_lab___project_1_1unit__procs_1_1base_1_1poopy__lab__obj.html">PooPyLab_Project.unit_procs.base.poopy_lab_obj</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="class_poo_py_lab___project_1_1unit__procs_1_1base_1_1poopy__lab__obj.html#a85d9da6650d8f02ffddf4d70b4fdf947">has_sidestream</a>(self)</td><td class="entry"><a class="el" href="class_poo_py_lab___project_1_1unit__procs_1_1base_1_1poopy__lab__obj.html">PooPyLab_Project.unit_procs.base.poopy_lab_obj</a></td><td class="entry"></td></tr>
@@ -119,12 +149,15 @@ $(function() {
   <tr class="even"><td class="entry"><a class="el" href="class_poo_py_lab___project_1_1unit__procs_1_1base_1_1poopy__lab__obj.html#a4eb5a25e5b944a09b8fa4b5f1cb2f42c">totalize_inflow</a>(self)</td><td class="entry"><a class="el" href="class_poo_py_lab___project_1_1unit__procs_1_1base_1_1poopy__lab__obj.html">PooPyLab_Project.unit_procs.base.poopy_lab_obj</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="class_poo_py_lab___project_1_1unit__procs_1_1base_1_1poopy__lab__obj.html#a4826249bfc8b515da2496e70e57e0f67">update_combined_input</a>(self)</td><td class="entry"><a class="el" href="class_poo_py_lab___project_1_1unit__procs_1_1base_1_1poopy__lab__obj.html">PooPyLab_Project.unit_procs.base.poopy_lab_obj</a></td><td class="entry"></td></tr>
 </table></div><!-- contents -->
+</div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.16-->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated by &#160;<a href="http://www.doxygen.org/index.html">
-<img class="footer" src="doxygen.png" alt="doxygen"/>
-</a> 1.8.16
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="footer">Generated by
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.16 </li>
+  </ul>
+</div>
 </body>
 </html>

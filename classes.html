@@ -6,13 +6,26 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.16"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>The PooPyLab Project: Class Index</title>
+<title>The Brown Book: Class Index</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+  $(document).ready(initResizable);
+/* @license-end */</script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+  $(document).ready(function() { init_search(); });
+/* @license-end */
+</script>
 <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -22,10 +35,25 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">The PooPyLab Project
+   <div id="projectname">The Brown Book
    </div>
-   <div id="projectbrief">Open source simulation software for biological wastewater treatment</div>
+   <div id="projectbrief">The documentation for the PooPyLab project</div>
   </td>
+   <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Search" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+</td>
  </tr>
  </tbody>
 </table>
@@ -37,17 +65,23 @@
 var searchBox = new SearchBox("searchBox", "search",false,'Search');
 /* @license-end */
 </script>
-<script type="text/javascript" src="menudata.js"></script>
-<script type="text/javascript" src="menu.js"></script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
-$(function() {
-  initMenu('',true,false,'search.php','Search');
-  $(document).ready(function() { init_search(); });
-});
-/* @license-end */</script>
-<div id="main-nav"></div>
-</div><!-- top -->
+$(document).ready(function(){initNavTree('classes.html','');});
+/* @license-end */
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -79,14 +113,14 @@ $(function() {
 </td>
 </tr>
 <tr><td></td></tr>
-<tr><td valign="top"><a class="el" href="class_poo_py_lab___project_1_1_a_s_m_model_1_1asm__1_1_1_a_s_m__1.html">ASM_1</a> (<a class="el" href="namespace_poo_py_lab___project_1_1_a_s_m_model_1_1asm__1.html">PooPyLab_Project.ASMModel.asm_1</a>)&#160;&#160;&#160;</td>
-<td valign="top"><a class="el" href="class_poo_py_lab___project_1_1unit__procs_1_1physchem_1_1final__clarifier.html">final_clarifier</a> (<a class="el" href="namespace_poo_py_lab___project_1_1unit__procs_1_1physchem.html">PooPyLab_Project.unit_procs.physchem</a>)&#160;&#160;&#160;</td>
-<td valign="top"><a class="el" href="class_poo_py_lab___project_1_1unit__procs_1_1streams_1_1pipe.html">pipe</a> (<a class="el" href="namespace_poo_py_lab___project_1_1unit__procs_1_1streams.html">PooPyLab_Project.unit_procs.streams</a>)&#160;&#160;&#160;</td>
-<td valign="top"><a class="el" href="class_poo_py_lab___project_1_1unit__procs_1_1streams_1_1_w_a_s.html">WAS</a> (<a class="el" href="namespace_poo_py_lab___project_1_1unit__procs_1_1streams.html">PooPyLab_Project.unit_procs.streams</a>)&#160;&#160;&#160;</td>
+<tr><td valign="top"><a class="el" href="class_poo_py_lab___project_1_1_a_s_m_model_1_1asm__1_1_1_a_s_m__1.html">ASM_1</a> (PooPyLab_Project.ASMModel.asm_1)&#160;&#160;&#160;</td>
+<td valign="top"><a class="el" href="class_poo_py_lab___project_1_1unit__procs_1_1physchem_1_1final__clarifier.html">final_clarifier</a> (PooPyLab_Project.unit_procs.physchem)&#160;&#160;&#160;</td>
+<td valign="top"><a class="el" href="class_poo_py_lab___project_1_1unit__procs_1_1streams_1_1pipe.html">pipe</a> (PooPyLab_Project.unit_procs.streams)&#160;&#160;&#160;</td>
+<td valign="top"><a class="el" href="class_poo_py_lab___project_1_1unit__procs_1_1streams_1_1_w_a_s.html">WAS</a> (PooPyLab_Project.unit_procs.streams)&#160;&#160;&#160;</td>
 </tr>
-<tr><td valign="top"><a class="el" href="class_poo_py_lab___project_1_1unit__procs_1_1bio_1_1asm__reactor.html">asm_reactor</a> (<a class="el" href="namespace_poo_py_lab___project_1_1unit__procs_1_1bio.html">PooPyLab_Project.unit_procs.bio</a>)&#160;&#160;&#160;</td>
-<td valign="top"><a class="el" href="class_poo_py_lab___project_1_1utils_1_1datatypes_1_1flow__data__src.html">flow_data_src</a> (<a class="el" href="namespace_poo_py_lab___project_1_1utils_1_1datatypes.html">PooPyLab_Project.utils.datatypes</a>)&#160;&#160;&#160;</td>
-<td valign="top"><a class="el" href="class_poo_py_lab___project_1_1unit__procs_1_1base_1_1poopy__lab__obj.html">poopy_lab_obj</a> (<a class="el" href="namespace_poo_py_lab___project_1_1unit__procs_1_1base.html">PooPyLab_Project.unit_procs.base</a>)&#160;&#160;&#160;</td>
+<tr><td valign="top"><a class="el" href="class_poo_py_lab___project_1_1unit__procs_1_1bio_1_1asm__reactor.html">asm_reactor</a> (PooPyLab_Project.unit_procs.bio)&#160;&#160;&#160;</td>
+<td valign="top"><a class="el" href="class_poo_py_lab___project_1_1utils_1_1datatypes_1_1flow__data__src.html">flow_data_src</a> (PooPyLab_Project.utils.datatypes)&#160;&#160;&#160;</td>
+<td valign="top"><a class="el" href="class_poo_py_lab___project_1_1unit__procs_1_1base_1_1poopy__lab__obj.html">poopy_lab_obj</a> (PooPyLab_Project.unit_procs.base)&#160;&#160;&#160;</td>
 <td></td></tr>
 <tr><td rowspan="2" valign="bottom"><a name="letter_e"></a><table border="0" cellspacing="0" cellpadding="0"><tr><td><div class="ah">&#160;&#160;e&#160;&#160;</div></td></tr></table>
 </td>
@@ -96,20 +130,23 @@ $(function() {
 </td>
 <td></td></tr>
 <tr><td></td></tr>
-<tr><td valign="top"><a class="el" href="class_poo_py_lab___project_1_1unit__procs_1_1streams_1_1effluent.html">effluent</a> (<a class="el" href="namespace_poo_py_lab___project_1_1unit__procs_1_1streams.html">PooPyLab_Project.unit_procs.streams</a>)&#160;&#160;&#160;</td>
-<td valign="top"><a class="el" href="class_poo_py_lab___project_1_1unit__procs_1_1streams_1_1influent.html">influent</a> (<a class="el" href="namespace_poo_py_lab___project_1_1unit__procs_1_1streams.html">PooPyLab_Project.unit_procs.streams</a>)&#160;&#160;&#160;</td>
-<td valign="top"><a class="el" href="class_poo_py_lab___project_1_1unit__procs_1_1streams_1_1splitter.html">splitter</a> (<a class="el" href="namespace_poo_py_lab___project_1_1unit__procs_1_1streams.html">PooPyLab_Project.unit_procs.streams</a>)&#160;&#160;&#160;</td>
+<tr><td valign="top"><a class="el" href="class_poo_py_lab___project_1_1unit__procs_1_1streams_1_1effluent.html">effluent</a> (PooPyLab_Project.unit_procs.streams)&#160;&#160;&#160;</td>
+<td valign="top"><a class="el" href="class_poo_py_lab___project_1_1unit__procs_1_1streams_1_1influent.html">influent</a> (PooPyLab_Project.unit_procs.streams)&#160;&#160;&#160;</td>
+<td valign="top"><a class="el" href="class_poo_py_lab___project_1_1unit__procs_1_1streams_1_1splitter.html">splitter</a> (PooPyLab_Project.unit_procs.streams)&#160;&#160;&#160;</td>
 <td></td></tr>
 <tr><td></td><td></td><td></td><td></td></tr>
 </table>
 <div class="qindex"><a class="qindex" href="#letter_a">a</a>&#160;|&#160;<a class="qindex" href="#letter_e">e</a>&#160;|&#160;<a class="qindex" href="#letter_f">f</a>&#160;|&#160;<a class="qindex" href="#letter_i">i</a>&#160;|&#160;<a class="qindex" href="#letter_p">p</a>&#160;|&#160;<a class="qindex" href="#letter_s">s</a>&#160;|&#160;<a class="qindex" href="#letter_w">w</a></div>
 </div><!-- contents -->
+</div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.16-->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated by &#160;<a href="http://www.doxygen.org/index.html">
-<img class="footer" src="doxygen.png" alt="doxygen"/>
-</a> 1.8.16
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="footer">Generated by
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.16 </li>
+  </ul>
+</div>
 </body>
 </html>
