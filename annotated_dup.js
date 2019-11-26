@@ -26,7 +26,7 @@ var annotated_dup =
       ] ],
       [ "utils", null, [
         [ "datatypes", null, [
-          [ "flow_data_src", "class_poo_py_lab___project_1_1utils_1_1datatypes_1_1flow__data__src.html", null ]
+          [ "flow_data_src", "class_poo_py_lab___project_1_1utils_1_1datatypes_1_1flow__data__src.html", "class_poo_py_lab___project_1_1utils_1_1datatypes_1_1flow__data__src" ]
         ] ]
       ] ]
     ] ]

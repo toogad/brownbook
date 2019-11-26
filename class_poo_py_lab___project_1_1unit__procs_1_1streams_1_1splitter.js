@@ -47,6 +47,7 @@ var class_poo_py_lab___project_1_1unit__procs_1_1streams_1_1splitter =
     [ "set_as_SRT_controller", "class_poo_py_lab___project_1_1unit__procs_1_1streams_1_1splitter.html#aaeb3768bc6692a4f0dc114df041e7612", null ],
     [ "is_SRT_controller", "class_poo_py_lab___project_1_1unit__procs_1_1streams_1_1splitter.html#af19b2f7a2bdd9e3c00730fb68305906d", null ],
     [ "_sum_helper", "class_poo_py_lab___project_1_1unit__procs_1_1streams_1_1splitter.html#a036cc7f9dfe40cbce2285e93af9804ac", null ],
+    [ "__id", "class_poo_py_lab___project_1_1unit__procs_1_1streams_1_1splitter.html#a1b307544bd5fb90a95d235ecc1e08c55", null ],
     [ "__name__", "class_poo_py_lab___project_1_1unit__procs_1_1streams_1_1splitter.html#a250d7a01ff87943b86db05bd5022977c", null ],
     [ "_type", "class_poo_py_lab___project_1_1unit__procs_1_1streams_1_1splitter.html#ae4e5301a033096205978ec9d6c461703", null ],
     [ "_inlet", "class_poo_py_lab___project_1_1unit__procs_1_1streams_1_1splitter.html#a080688e68fe9da8a608a6995a87a796f", null ],

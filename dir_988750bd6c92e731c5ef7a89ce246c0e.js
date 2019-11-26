@@ -1,6 +1,5 @@
 var dir_988750bd6c92e731c5ef7a89ce246c0e =
 [
-    [ "__init__.py", "unit__procs_2____init_____8py.html", null ],
     [ "base.py", "base_8py.html", [
       [ "poopy_lab_obj", "class_poo_py_lab___project_1_1unit__procs_1_1base_1_1poopy__lab__obj.html", "class_poo_py_lab___project_1_1unit__procs_1_1base_1_1poopy__lab__obj" ]
     ] ],

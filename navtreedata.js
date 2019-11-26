@@ -34,6 +34,9 @@ var NAVTREE =
         [ "All", "functions.html", null ],
         [ "Functions", "functions_func.html", null ]
       ] ]
+    ] ],
+    [ "Files", "files.html", [
+      [ "File List", "files.html", "files_dup" ]
     ] ]
   ] ]
 ];
@@ -41,7 +44,7 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 ".html",
-"class_poo_py_lab___project_1_1unit__procs_1_1streams_1_1splitter.html#a4fafa858d73764fb634dfbb0edba604f"
+"class_poo_py_lab___project_1_1unit__procs_1_1streams_1_1splitter.html#a250d7a01ff87943b86db05bd5022977c"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

@@ -1,7 +1,7 @@
 var class_poo_py_lab___project_1_1_a_s_m_model_1_1asm__1_1_1_a_s_m__1 =
 [
-    [ "__init__", "class_poo_py_lab___project_1_1_a_s_m_model_1_1asm__1_1_1_a_s_m__1.html#a12360f64f5ce8799925d9a7479ff12a5", null ],
-    [ "update", "class_poo_py_lab___project_1_1_a_s_m_model_1_1asm__1_1_1_a_s_m__1.html#a413d108c09ea6e4c2fa0d933ad754f33", null ],
+    [ "__init__", "class_poo_py_lab___project_1_1_a_s_m_model_1_1asm__1_1_1_a_s_m__1.html#af68938c11b64670556ea961810d012c8", null ],
+    [ "update", "class_poo_py_lab___project_1_1_a_s_m_model_1_1asm__1_1_1_a_s_m__1.html#a1e64b7d694552db4a2f682035b0f8654", null ],
     [ "get_params", "class_poo_py_lab___project_1_1_a_s_m_model_1_1asm__1_1_1_a_s_m__1.html#ac9069a8751e4eb728808de9b8a2c9aea", null ],
     [ "get_stoichs", "class_poo_py_lab___project_1_1_a_s_m_model_1_1asm__1_1_1_a_s_m__1.html#a513ce33b21b8b2c3f3ba5bf0c11bdf0c", null ],
     [ "get_all_comps", "class_poo_py_lab___project_1_1_a_s_m_model_1_1asm__1_1_1_a_s_m__1.html#abec992865d4608af73f25da647668a96", null ],
