@@ -10,7 +10,7 @@ var class_poo_py_lab___project_1_1unit__procs_1_1physchem_1_1final__clarifier =
     [ "__name__", "class_poo_py_lab___project_1_1unit__procs_1_1physchem_1_1final__clarifier.html#ac846436b82029c8d5427fe392e99ba66", null ],
     [ "_type", "class_poo_py_lab___project_1_1unit__procs_1_1physchem_1_1final__clarifier.html#ab686b8bd08099e4b5ee25ce04cb219ef", null ],
     [ "_active_vol", "class_poo_py_lab___project_1_1unit__procs_1_1physchem_1_1final__clarifier.html#af1be9b19825e4c292354f0f5d209ffaf", null ],
-    [ "_SWD", "class_poo_py_lab___project_1_1unit__procs_1_1physchem_1_1final__clarifier.html#a34fdd5a3ee1f261e37aefd0286c74f3f", null ],
+    [ "_swd", "class_poo_py_lab___project_1_1unit__procs_1_1physchem_1_1final__clarifier.html#ad01917288537a9ec10a9b9506120b8c1", null ],
     [ "_area", "class_poo_py_lab___project_1_1unit__procs_1_1physchem_1_1final__clarifier.html#a8a9ea83167b87c93398af6c7a0aef42b", null ],
     [ "_upstream_set_mo_flow", "class_poo_py_lab___project_1_1unit__procs_1_1physchem_1_1final__clarifier.html#abcb387d1820d9ddabb75f3edc9160257", null ],
     [ "_capture_rate", "class_poo_py_lab___project_1_1unit__procs_1_1physchem_1_1final__clarifier.html#aacab0a6b3a5ac895d58048209a3d61b1", null ],

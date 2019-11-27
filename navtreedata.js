@@ -23,16 +23,17 @@ for the JavaScript code in this file
 var NAVTREE =
 [
   [ "The Brown Book", "index.html", [
-    [ "Packages", "namespaces.html", [
-      [ "Packages", "namespaces.html", "namespaces_dup" ]
+    [ "Namespaces", "namespaces.html", [
+      [ "Namespace List", "namespaces.html", "namespaces_dup" ]
     ] ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],
       [ "Class Hierarchy", "hierarchy.html", "hierarchy" ],
       [ "Class Members", "functions.html", [
-        [ "All", "functions.html", null ],
-        [ "Functions", "functions_func.html", null ]
+        [ "All", "functions.html", "functions_dup" ],
+        [ "Functions", "functions_func.html", null ],
+        [ "Variables", "functions_vars.html", null ]
       ] ]
     ] ],
     [ "Files", "files.html", [
@@ -44,7 +45,7 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 ".html",
-"class_poo_py_lab___project_1_1unit__procs_1_1streams_1_1splitter.html#a250d7a01ff87943b86db05bd5022977c"
+"class_poo_py_lab___project_1_1unit__procs_1_1streams_1_1splitter.html#a1b307544bd5fb90a95d235ecc1e08c55"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
