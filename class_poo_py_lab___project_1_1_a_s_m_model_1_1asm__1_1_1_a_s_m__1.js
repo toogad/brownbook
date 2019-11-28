@@ -36,7 +36,5 @@ var class_poo_py_lab___project_1_1_a_s_m_model_1_1asm__1_1_1_a_s_m__1 =
     [ "_params", "class_poo_py_lab___project_1_1_a_s_m_model_1_1asm__1_1_1_a_s_m__1.html#a201391de4136082f14b80c781c333761", null ],
     [ "_stoichs", "class_poo_py_lab___project_1_1_a_s_m_model_1_1asm__1_1_1_a_s_m__1.html#a714f3d0205b7ee2e3a216a36989ab8a4", null ],
     [ "_delta_t", "class_poo_py_lab___project_1_1_a_s_m_model_1_1asm__1_1_1_a_s_m__1.html#afe4b521c69c22f3076636507a98f526f", null ],
-    [ "_comps", "class_poo_py_lab___project_1_1_a_s_m_model_1_1asm__1_1_1_a_s_m__1.html#acdd07b181f8f68537b4bf8fd1c71d5fb", null ],
-    [ "_param", "class_poo_py_lab___project_1_1_a_s_m_model_1_1asm__1_1_1_a_s_m__1.html#a0109e10387fa59e8cf80e59d74bf1c1c", null ],
-    [ "_stoich", "class_poo_py_lab___project_1_1_a_s_m_model_1_1asm__1_1_1_a_s_m__1.html#a379e73d665d2f1d5a79b43bb27347485", null ]
+    [ "_comps", "class_poo_py_lab___project_1_1_a_s_m_model_1_1asm__1_1_1_a_s_m__1.html#acdd07b181f8f68537b4bf8fd1c71d5fb", null ]
 ];

@@ -1,7 +1,5 @@
 var NAVTREEINDEX1 =
 {
-"class_poo_py_lab___project_1_1unit__procs_1_1streams_1_1splitter.html#a1b307544bd5fb90a95d235ecc1e08c55":[1,0,0,1,3,3,47],
-"class_poo_py_lab___project_1_1unit__procs_1_1streams_1_1splitter.html#a250d7a01ff87943b86db05bd5022977c":[1,0,0,1,3,3,48],
 "class_poo_py_lab___project_1_1unit__procs_1_1streams_1_1splitter.html#a263ca88bd29aeeb88ee30661d7456afc":[1,0,0,1,3,3,51],
 "class_poo_py_lab___project_1_1unit__procs_1_1streams_1_1splitter.html#a2911dac58c65e22d95e8f5e4e6bed992":[1,0,0,1,3,3,64],
 "class_poo_py_lab___project_1_1unit__procs_1_1streams_1_1splitter.html#a2ae9c0035cbdef4bbeb7556d2f166386":[1,0,0,1,3,3,66],
