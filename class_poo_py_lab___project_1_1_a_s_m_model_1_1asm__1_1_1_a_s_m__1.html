@@ -143,9 +143,9 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:a63cfea89228df885a8519047af7d3177"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_poo_py_lab___project_1_1_a_s_m_model_1_1asm__1_1_1_a_s_m__1.html#a63cfea89228df885a8519047af7d3177">_set_stoichs</a> (self)</td></tr>
 <tr class="memdesc:a63cfea89228df885a8519047af7d3177"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the stoichiometrics @ 20C for the ASM 1 model.  <a href="class_poo_py_lab___project_1_1_a_s_m_model_1_1asm__1_1_1_a_s_m__1.html#a63cfea89228df885a8519047af7d3177">More...</a><br /></td></tr>
 <tr class="separator:a63cfea89228df885a8519047af7d3177"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3101add6ce6cd0b3be8cca1575541626"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_poo_py_lab___project_1_1_a_s_m_model_1_1asm__1_1_1_a_s_m__1.html#a3101add6ce6cd0b3be8cca1575541626">_monod</a> (self, term_in_nom_denom, term_only_in_denom)</td></tr>
-<tr class="memdesc:a3101add6ce6cd0b3be8cca1575541626"><td class="mdescLeft">&#160;</td><td class="mdescRight">Template for Monod kinetics or switches.  <a href="class_poo_py_lab___project_1_1_a_s_m_model_1_1asm__1_1_1_a_s_m__1.html#a3101add6ce6cd0b3be8cca1575541626">More...</a><br /></td></tr>
-<tr class="separator:a3101add6ce6cd0b3be8cca1575541626"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac29a6636073f52f3925b813bfe2d825d"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_poo_py_lab___project_1_1_a_s_m_model_1_1asm__1_1_1_a_s_m__1.html#ac29a6636073f52f3925b813bfe2d825d">_monod</a> (self, term_in_num_denum, term_only_in_denum)</td></tr>
+<tr class="memdesc:ac29a6636073f52f3925b813bfe2d825d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Template for Monod kinetics or switches.  <a href="class_poo_py_lab___project_1_1_a_s_m_model_1_1asm__1_1_1_a_s_m__1.html#ac29a6636073f52f3925b813bfe2d825d">More...</a><br /></td></tr>
+<tr class="separator:ac29a6636073f52f3925b813bfe2d825d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7d362bc3c5e9fcdd5417e527369f80ca"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_poo_py_lab___project_1_1_a_s_m_model_1_1asm__1_1_1_a_s_m__1.html#a7d362bc3c5e9fcdd5417e527369f80ca">_r0_AerGH</a> (self, comps)</td></tr>
 <tr class="memdesc:a7d362bc3c5e9fcdd5417e527369f80ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Aerobic Growth Rate of Heterotrophs (mgCOD/L/day).  <a href="class_poo_py_lab___project_1_1_a_s_m_model_1_1asm__1_1_1_a_s_m__1.html#a7d362bc3c5e9fcdd5417e527369f80ca">More...</a><br /></td></tr>
 <tr class="separator:a7d362bc3c5e9fcdd5417e527369f80ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -396,8 +396,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a3101add6ce6cd0b3be8cca1575541626"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3101add6ce6cd0b3be8cca1575541626">&#9670;&nbsp;</a></span>_monod()</h2>
+<a id="ac29a6636073f52f3925b813bfe2d825d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac29a6636073f52f3925b813bfe2d825d">&#9670;&nbsp;</a></span>_monod()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -415,13 +415,13 @@ Private Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>term_in_nom_denom</em>, </td>
+          <td class="paramname"><em>term_in_num_denum</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>term_only_in_denom</em>&#160;</td>
+          <td class="paramname"><em>term_only_in_denum</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -445,8 +445,8 @@ Private Attributes</h2></td></tr>
        Monod kinetic of NOx-N on Autotrophs.
 </pre><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">term_in_nom_denom</td><td>the term in both nominator and denominator </td></tr>
-    <tr><td class="paramname">term_in_nom_denom</td><td>the term only in nominator</td></tr>
+    <tr><td class="paramname">term_in_num_denum</td><td>the term in both numerator &amp; denumerator </td></tr>
+    <tr><td class="paramname">term_only_in_denum</td><td>the term only in numerator</td></tr>
   </table>
   </dd>
 </dl>
