@@ -1,6 +1,7 @@
 var class_poo_py_lab___project_1_1unit__procs_1_1bio_1_1asm__reactor =
 [
     [ "__init__", "class_poo_py_lab___project_1_1unit__procs_1_1bio_1_1asm__reactor.html#a0b7efc2c52399e78066fe62072795e61", null ],
+    [ "is_converged", "class_poo_py_lab___project_1_1unit__procs_1_1bio_1_1asm__reactor.html#abc1fe041ba3c3c46064ea9e91a6a4eb6", null ],
     [ "discharge", "class_poo_py_lab___project_1_1unit__procs_1_1bio_1_1asm__reactor.html#a6ad8e127510bac0b2a31397907db4169", null ],
     [ "assign_initial_guess", "class_poo_py_lab___project_1_1unit__procs_1_1bio_1_1asm__reactor.html#aff907fa4018670d03d117ad5eec5be2c", null ],
     [ "set_active_vol", "class_poo_py_lab___project_1_1unit__procs_1_1bio_1_1asm__reactor.html#aea32226b7006ae72fa8102c0697d7eb8", null ],
@@ -11,7 +12,7 @@ var class_poo_py_lab___project_1_1unit__procs_1_1bio_1_1asm__reactor =
     [ "_integrate", "class_poo_py_lab___project_1_1unit__procs_1_1bio_1_1asm__reactor.html#ad369d71993a0993ea336db02f2b8324d", null ],
     [ "_RKF45_ks", "class_poo_py_lab___project_1_1unit__procs_1_1bio_1_1asm__reactor.html#a1dd6bb7e79602ca50415493985bacde5", null ],
     [ "_RKF45_err", "class_poo_py_lab___project_1_1unit__procs_1_1bio_1_1asm__reactor.html#a5813389c4534c18ec3416eb32f603d6b", null ],
-    [ "_runge_kutta_fehlberg_45", "class_poo_py_lab___project_1_1unit__procs_1_1bio_1_1asm__reactor.html#af48383446ecca52c6d73c2fa09b58e44", null ],
+    [ "_runge_kutta_fehlberg_45", "class_poo_py_lab___project_1_1unit__procs_1_1bio_1_1asm__reactor.html#adb6ecafc38d27f6d3df957d58493c41c", null ],
     [ "_runge_kutta_4", "class_poo_py_lab___project_1_1unit__procs_1_1bio_1_1asm__reactor.html#a98ed2a88772739b2f0f88e32afc9122b", null ],
     [ "_euler", "class_poo_py_lab___project_1_1unit__procs_1_1bio_1_1asm__reactor.html#a0dd602c2868583b3db39bffecc4c108f", null ],
     [ "__id", "class_poo_py_lab___project_1_1unit__procs_1_1bio_1_1asm__reactor.html#a79c2e62f8827a1dc883a8e911c65418d", null ],
@@ -21,6 +22,7 @@ var class_poo_py_lab___project_1_1unit__procs_1_1bio_1_1asm__reactor =
     [ "_swd", "class_poo_py_lab___project_1_1unit__procs_1_1bio_1_1asm__reactor.html#a8e1efd6d6f7700a7f54dde9f7a897e00", null ],
     [ "_area", "class_poo_py_lab___project_1_1unit__procs_1_1bio_1_1asm__reactor.html#aa90b2f4f314224219c31e7c67ab82f2f", null ],
     [ "_sludge", "class_poo_py_lab___project_1_1unit__procs_1_1bio_1_1asm__reactor.html#a895aa53be52969a8cdf4b2343e83f25f", null ],
+    [ "_del_C_del_t", "class_poo_py_lab___project_1_1unit__procs_1_1bio_1_1asm__reactor.html#a66e4ade5ca359ebb8bf537c0f0cdf816", null ],
     [ "_in_comps", "class_poo_py_lab___project_1_1unit__procs_1_1bio_1_1asm__reactor.html#a2b1e520b60190df159d81d042b0be9cf", null ],
     [ "_mo_comps", "class_poo_py_lab___project_1_1unit__procs_1_1bio_1_1asm__reactor.html#a72555b5fb705740c79cae5221c2d8b54", null ],
     [ "_prev_mo_comps", "class_poo_py_lab___project_1_1unit__procs_1_1bio_1_1asm__reactor.html#ac7a2abdd13799446039e1cd0347271fb", null ],
