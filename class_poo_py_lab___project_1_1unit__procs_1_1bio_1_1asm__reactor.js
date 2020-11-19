@@ -1,7 +1,7 @@
 var class_poo_py_lab___project_1_1unit__procs_1_1bio_1_1asm__reactor =
 [
     [ "__init__", "class_poo_py_lab___project_1_1unit__procs_1_1bio_1_1asm__reactor.html#a0b7efc2c52399e78066fe62072795e61", null ],
-    [ "is_converged", "class_poo_py_lab___project_1_1unit__procs_1_1bio_1_1asm__reactor.html#ad7349b8540d64315ecc9e37481ecf240", null ],
+    [ "is_converged", "class_poo_py_lab___project_1_1unit__procs_1_1bio_1_1asm__reactor.html#a933c5aafcf806a1164201cf6a67714e5", null ],
     [ "discharge", "class_poo_py_lab___project_1_1unit__procs_1_1bio_1_1asm__reactor.html#a6ad8e127510bac0b2a31397907db4169", null ],
     [ "assign_initial_guess", "class_poo_py_lab___project_1_1unit__procs_1_1bio_1_1asm__reactor.html#aff907fa4018670d03d117ad5eec5be2c", null ],
     [ "set_active_vol", "class_poo_py_lab___project_1_1unit__procs_1_1bio_1_1asm__reactor.html#aea32226b7006ae72fa8102c0697d7eb8", null ],
@@ -9,11 +9,10 @@ var class_poo_py_lab___project_1_1unit__procs_1_1bio_1_1asm__reactor =
     [ "set_model_condition", "class_poo_py_lab___project_1_1unit__procs_1_1bio_1_1asm__reactor.html#a2f752565b4d2af2aa2e58f0aec3ca02c", null ],
     [ "get_model_params", "class_poo_py_lab___project_1_1unit__procs_1_1bio_1_1asm__reactor.html#a765864cb22863fab43dfa7e2418825e3", null ],
     [ "get_model_stoichs", "class_poo_py_lab___project_1_1unit__procs_1_1bio_1_1asm__reactor.html#a084246fdeccd7484f4d48c913e1f6787", null ],
-    [ "_integrate", "class_poo_py_lab___project_1_1unit__procs_1_1bio_1_1asm__reactor.html#a77a52b9697fc4fdf68454891ca1cb0ab", null ],
-    [ "_max_steps", "class_poo_py_lab___project_1_1unit__procs_1_1bio_1_1asm__reactor.html#ae0a9a11b5566cb2885056e07c82a2921", null ],
+    [ "_integrate", "class_poo_py_lab___project_1_1unit__procs_1_1bio_1_1asm__reactor.html#a9faa7a75dd838598338f02c24ef292f8", null ],
     [ "_RKF45_ks", "class_poo_py_lab___project_1_1unit__procs_1_1bio_1_1asm__reactor.html#a1dd6bb7e79602ca50415493985bacde5", null ],
     [ "_RKF45_err", "class_poo_py_lab___project_1_1unit__procs_1_1bio_1_1asm__reactor.html#a5813389c4534c18ec3416eb32f603d6b", null ],
-    [ "_runge_kutta_fehlberg_45", "class_poo_py_lab___project_1_1unit__procs_1_1bio_1_1asm__reactor.html#adb6ecafc38d27f6d3df957d58493c41c", null ],
+    [ "_runge_kutta_fehlberg_45", "class_poo_py_lab___project_1_1unit__procs_1_1bio_1_1asm__reactor.html#a6d6036a6ec4d4ff2d7d8b5213c182939", null ],
     [ "__id", "class_poo_py_lab___project_1_1unit__procs_1_1bio_1_1asm__reactor.html#a79c2e62f8827a1dc883a8e911c65418d", null ],
     [ "__name__", "class_poo_py_lab___project_1_1unit__procs_1_1bio_1_1asm__reactor.html#a2e89b9c70fc504ff1e15a2706cd97177", null ],
     [ "_type", "class_poo_py_lab___project_1_1unit__procs_1_1bio_1_1asm__reactor.html#afb251e1d3c458f32e1e1f5bc013f402c", null ],
@@ -28,5 +27,9 @@ var class_poo_py_lab___project_1_1unit__procs_1_1bio_1_1asm__reactor =
     [ "_prev_so_comps", "class_poo_py_lab___project_1_1unit__procs_1_1bio_1_1asm__reactor.html#a46349bbdd71f8e7ddfae4235500b8ff5", null ],
     [ "_upstream_set_mo_flow", "class_poo_py_lab___project_1_1unit__procs_1_1bio_1_1asm__reactor.html#a7ac31a5b30bf21be21e6a1c68171d31f", null ],
     [ "_step", "class_poo_py_lab___project_1_1unit__procs_1_1bio_1_1asm__reactor.html#a4282997aa8fdf9384af2a6cab91fe4c0", null ],
+    [ "_prev_local_err", "class_poo_py_lab___project_1_1unit__procs_1_1bio_1_1asm__reactor.html#a77beb7102d28591a6cb7e89a85974d3c", null ],
+    [ "_atol", "class_poo_py_lab___project_1_1unit__procs_1_1bio_1_1asm__reactor.html#a685d299d2febe76ccdc444d2357f5770", null ],
+    [ "_rtol", "class_poo_py_lab___project_1_1unit__procs_1_1bio_1_1asm__reactor.html#ac4808e51fe092e4e96f97e8654f828fc", null ],
+    [ "_solultion", "class_poo_py_lab___project_1_1unit__procs_1_1bio_1_1asm__reactor.html#aa18eacedd1c2740a047c4861d92ca5da", null ],
     [ "_so_comps", "class_poo_py_lab___project_1_1unit__procs_1_1bio_1_1asm__reactor.html#a17bf67c6bd5d1411bea56a06979b0541", null ]
 ];
