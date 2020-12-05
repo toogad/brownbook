@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['has_5fdischarger_127',['has_discharger',['../class_poo_py_lab___project_1_1unit__procs_1_1base_1_1poopy__lab__obj.html#ac6fd6b349e9c94925ff7299f4d51859d',1,'PooPyLab_Project.unit_procs.base.poopy_lab_obj.has_discharger()'],['../class_poo_py_lab___project_1_1unit__procs_1_1streams_1_1splitter.html#a774af4e700dc210b73fba181662a1c79',1,'PooPyLab_Project.unit_procs.streams.splitter.has_discharger()']]],
-  ['has_5fsidestream_128',['has_sidestream',['../class_poo_py_lab___project_1_1unit__procs_1_1base_1_1poopy__lab__obj.html#a85d9da6650d8f02ffddf4d70b4fdf947',1,'PooPyLab_Project.unit_procs.base.poopy_lab_obj.has_sidestream()'],['../class_poo_py_lab___project_1_1unit__procs_1_1streams_1_1splitter.html#a0304d2da8fc56e386bb464547f1eb117',1,'PooPyLab_Project.unit_procs.streams.splitter.has_sidestream()']]]
+  ['has_5fdischarger_135',['has_discharger',['../class_poo_py_lab_1_1unit__procs_1_1base_1_1poopy__lab__obj.html#abbb684548a04e5102f07386d77cf2d60',1,'PooPyLab.unit_procs.base.poopy_lab_obj.has_discharger()'],['../class_poo_py_lab_1_1unit__procs_1_1streams_1_1splitter.html#a6c6309b72308bcc84d0769861a1e0f85',1,'PooPyLab.unit_procs.streams.splitter.has_discharger()']]],
+  ['has_5fsidestream_136',['has_sidestream',['../class_poo_py_lab_1_1unit__procs_1_1base_1_1poopy__lab__obj.html#a5865f432e2036de77e66aa1b629fa64f',1,'PooPyLab.unit_procs.base.poopy_lab_obj.has_sidestream()'],['../class_poo_py_lab_1_1unit__procs_1_1streams_1_1splitter.html#adc0c2ceec75a6a793ed74f6af207caef',1,'PooPyLab.unit_procs.streams.splitter.has_sidestream()']]]
 ];

@@ -5,6 +5,7 @@ var namespaces_dup =
     [ "bio", "namespacebio.html", null ],
     [ "constants", "namespaceconstants.html", null ],
     [ "datatypes", "namespacedatatypes.html", null ],
+    [ "pfd", "namespacepfd.html", null ],
     [ "physchem", "namespacephyschem.html", null ],
     [ "run", "namespacerun.html", null ],
     [ "streams", "namespacestreams.html", null ]

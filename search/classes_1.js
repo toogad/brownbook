@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['effluent_167',['effluent',['../class_poo_py_lab___project_1_1unit__procs_1_1streams_1_1effluent.html',1,'PooPyLab_Project::unit_procs::streams']]]
+  ['effluent_178',['effluent',['../class_poo_py_lab_1_1unit__procs_1_1streams_1_1effluent.html',1,'PooPyLab::unit_procs::streams']]]
 ];
